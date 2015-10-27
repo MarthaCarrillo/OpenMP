@@ -86,6 +86,9 @@ Basado en el programa original pi.c se incluyeron las siguientes instrucciones p
 
 #####inclusión de la libreria omp.h
 
+#####Paralelizar el ciclo for, con consolidación de valor parcial de la variable suma, en los diferentes hilos, con la directiva de compilación reduction.
+
+
 ####Archivo: Montecarlopi_OpenMP.c 
 Basado en el programa original Montecarlopi.c se incluyeron las siguientes instrucciones para la conversión a un programa en paralelo
 
