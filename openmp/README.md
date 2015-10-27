@@ -95,3 +95,13 @@ Basado en el programa original Montecarlopi.c se incluyeron las siguientes instr
 #####inclusión de la libreria omp.h
 
 #####Paralelizar el ciclo for, con consolidación de valor parcial de la variable Ncirc, en los diferentes hilos, con la directiva de compilación reduction.
+
+####Archivo: Montecarlopi_01.c 
+Basado en el programa original Montecarlopi.c se incluyeron las siguientes instrucciones para la conversión a un programa en paralelo
+
+#####inclusión de la libreria omp.h
+
+#####Paralelizar el ciclo for, con consolidación de valor parcial de la variable Ncirc, en los diferentes hilos, con la directiva de compilación reduction. Variables privadas para cada hilo: i, x, y y test
+
+#####Paralelizar bloques de codigo, se envia cada random en un bloque de código paralelizado
+
