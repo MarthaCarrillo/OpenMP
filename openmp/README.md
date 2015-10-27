@@ -93,3 +93,5 @@ Basado en el programa original pi.c se incluyeron las siguientes instrucciones p
 Basado en el programa original Montecarlopi.c se incluyeron las siguientes instrucciones para la conversión a un programa en paralelo
 
 #####inclusión de la libreria omp.h
+
+#####Paralelizar el ciclo for, con consolidación de valor parcial de la variable Ncirc, en los diferentes hilos, con la directiva de compilación reduction.
