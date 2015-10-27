@@ -12,7 +12,7 @@ Es el típico programa secuencial del hola mundo.
 
 ####Iteración 1
 #####Observación: 
-Para esta iteración se incluye la librería de c open.h, y las instrucciones de incorporación de hilos: #pragma open parallel para crear los hilos y omp_get_thread_num() para capturar el identificador del hilo.
+Para esta iteración se incluye la librería de c omp.h, y las instrucciones de incorporación de hilos: #pragma open parallel para crear los hilos y omp_get_thread_num() para capturar el identificador del hilo.
 
 #####Cuántos hilos se ejecutan?
 R/ En este momento se están ejecutando cuatro hilos, cada uno de ellos imprime la frase “hello (id) world (id)”. donde id va desde 0 hasta 3.
@@ -84,9 +84,9 @@ usa una aproximación basada en el método Monte Carlo para de forma aleatoria s
 ####Archivo: pi_OpenMP.c 
 Basado en el programa original pi.c se incluyeron las siguientes instrucciones para la conversión a un programa en paralelo
 
-#####inclusión de la libreria open.h
+#####inclusión de la libreria omp.h
 
 ####Archivo: Montecarlopi_OpenMP.c 
 Basado en el programa original Montecarlopi.c se incluyeron las siguientes instrucciones para la conversión a un programa en paralelo
 
-#####inclusión de la libreria open.h
+#####inclusión de la libreria omp.h
